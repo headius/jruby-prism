@@ -1,4 +1,4 @@
-package org.jruby.prism.parser;
+package org.jruby.parser.prism;
 
 import org.prism.AbstractNodeVisitor;
 import org.prism.Nodes;

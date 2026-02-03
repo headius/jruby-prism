@@ -1,4 +1,4 @@
-package org.jruby.prism.builder;
+package org.jruby.parser.prism.builder;
 
 import org.jcodings.Encoding;
 import org.jruby.ir.IRScope;

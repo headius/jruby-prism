@@ -1,11 +1,10 @@
-package org.jruby.prism.builder;
+package org.jruby.parser.prism.builder;
 
 import org.jcodings.Encoding;
 import org.jruby.ir.IRManager;
 import org.jruby.ir.IRMethod;
 import org.jruby.ir.builder.IRBuilder;
 import org.jruby.ir.builder.LazyMethodDefinition;
-import org.jruby.prism.builder.IRBuilderPrism;
 import org.prism.AbstractNodeVisitor;
 import org.prism.Nodes;
 import org.prism.Nodes.ConstantPathNode;

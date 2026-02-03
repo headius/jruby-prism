@@ -1,4 +1,4 @@
-package org.jruby.prism.builder;
+package org.jruby.parser.prism.builder;
 
 import org.jcodings.Encoding;
 import org.jcodings.specific.ASCIIEncoding;
@@ -64,7 +64,7 @@ import org.jruby.util.StringSupport;
 import org.jruby.util.cli.Options;
 import org.prism.Nodes;
 import org.prism.Nodes.*;
-import org.jruby.prism.parser.ParseResultPrism;
+import org.jruby.parser.prism.ParseResultPrism;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

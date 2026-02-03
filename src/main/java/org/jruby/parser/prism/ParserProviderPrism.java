@@ -1,4 +1,4 @@
-package org.jruby.prism;
+package org.jruby.parser.prism;
 
 import jnr.ffi.LibraryLoader;
 import org.jruby.Ruby;
@@ -6,10 +6,7 @@ import org.jruby.ir.builder.IRBuilderFactory;
 import org.jruby.parser.Parser;
 import org.jruby.parser.ParserManager;
 import org.jruby.parser.ParserProvider;
-import org.jruby.prism.builder.IRBuilderFactoryPrism;
-import org.jruby.prism.parser.ParserBindingPrism;
-import org.jruby.prism.parser.ParserPrismNative;
-import org.jruby.prism.parser.ParserPrismWasm;
+import org.jruby.parser.prism.builder.IRBuilderFactoryPrism;
 
 import java.io.File;
 
